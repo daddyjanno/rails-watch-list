@@ -1,0 +1,14 @@
+<h1>Show of List</h1>
+
+<div class="card-trip container">
+  <div class="row">
+    <div class="col-3">
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+      <h2><%= @list.name %></h2>
+    </div>
+  </div>
+</div>
+
+<%= render 'bookmarks/new' %>
+
+<%= link_to "Back to home", lists_path  %>
